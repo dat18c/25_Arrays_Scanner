@@ -23,6 +23,7 @@ else if (valg == 0)
 // exit hvis brugeren taster 0
 run = false;
 }
+````
 
 ## Arrays
 
@@ -47,6 +48,7 @@ for (int i = 0; i < stud.length; i++)
 
 // lav om på studerende 5
 stud[5].setNavn = "Anders And";
+````
 
 ## Øvelser
 
