@@ -31,23 +31,30 @@ run = false;
 * Array på objekter, eg.
 ````
 // lav først arrayet, so kan indeholde objekter af typen
-Studerende[] stud = new studerende[10];
+Studerende[] stud = new studerende[3];
+
 // lav de individuelle objekter, som skal gemmes i arrayet
-for (int i = 0; i < stud.length; i++)
+for (int i=0; i<stud.length; i++)
+{
+   Studerende[] stud = new Studerende[3];
+}
+
+// traverser arrayet og læg studerende ind i arrayet
+for (int i=0; i<stud.length; i++)
 {
    //lav objektet til stud[i]
-   Studerende st = new Studerende();
+   stud[i] = new Studerende();
 }
-// alle 10 studerende er nu initialiseret og gemt i arrayet
+// alle studerende er nu initialiseret og gemt i arrayet
 
-// udskriv alle 10 studerende vha. toString
-for (int i = 0; i < stud.length; i++)
+// lav om på studerende 2
+stud[2].setNavn("Anders And");
+
+// udskriv alle studerende vha. toString
+for (int i=0; i<stud.length; i++)
 {
    System.out.println(stud[i]);
 }
-
-// lav om på studerende 5
-stud[5].setNavn = "Anders And";
 ````
 
 ## Øvelser
