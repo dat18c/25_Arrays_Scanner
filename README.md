@@ -33,17 +33,11 @@ run = false;
 // lav først arrayet, so kan indeholde objekter af typen
 Studerende[] stud = new studerende[3];
 
-// lav de individuelle objekter, som skal gemmes i arrayet
-for (int i=0; i<stud.length; i++)
-{
-   Studerende[] stud = new Studerende[3];
-}
-
 // traverser arrayet og læg studerende ind i arrayet
 for (int i=0; i<stud.length; i++)
 {
    //lav objektet til stud[i]
-   stud[i] = new Studerende();
+   stud[i] = new Studerende("Rap And", "Andedammen");
 }
 // alle studerende er nu initialiseret og gemt i arrayet
 
