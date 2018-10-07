@@ -11,17 +11,19 @@ boolean run = true;
 //check om programmet skal køres
 while (run)
 {
-
-// skriv menu og lad brugeren vælge vha. Scanner
-// afhængigt af valg startes forskellige underprogrammer
-if (valg == 1)
-{
-  //kald første valgmulighed
-}
-
-else if (valg == 0)
-// exit hvis brugeren taster 0
-run = false;
+   
+   // skriv menu og lad brugeren vælge vha. Scanner
+   // afhængigt af valg startes forskellige underprogrammer
+   if (valg == 1)
+   {
+     //kald første valgmulighed
+   }
+   
+   else if (valg == 0)
+   {
+      // exit hvis brugeren taster 0
+      run = false;
+   }
 }
 ````
 
