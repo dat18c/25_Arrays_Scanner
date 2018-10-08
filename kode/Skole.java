@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Skole
 {
    
@@ -5,17 +7,29 @@ public class Skole
    {
       
       //lav 3 studerende - sekretæren kender navne og klasser
-      Studerende stud1 = new Studerende("Rip", "Dat18F");
+      /*Studerende stud1 = new Studerende("Rip", "Dat18F");
       Studerende stud2 = new Studerende("Rap", "Dat18F");
       Studerende stud3 = new Studerende("Rup", "Dat18F");
-
+      */
+      Studerende[] stud = new Studerende[3];
+      for (int i=0; i<stud.length; i++)
+      {
+         //læs navn og klasse fra tastatur vha. Scanner
+         stud[i] = new Studerende("Rip", "Andedammen");
+      }
+      
       //sæt 3 studerendes højde og vægt - underviser måler
-      stud1.maalStuderende(1.72, 87);
+      /*stud1.maalStuderende(1.72, 87);
       stud2.maalStuderende(1.82, 67);
-      stud3.maalStuderende(1.92, 67);
-           
+      stud3.maalStuderende(1.92, 67);*/
+      stud[0].maalStuderende(1.72, 87);
+      stud[1].maalStuderende(1.82, 67);
+      stud[2].maalStuderende(1.92, 67);
+      
+      // System.out.println(Arrays.toString(stud));
+      
       //beregn bmi - udskriv navn og så beregn BMI
-      System.out.println("Studerende: " + stud1.getNavn());
+      /*System.out.println("Studerende: " + stud1.getNavn());
       stud1.beregnBMI();
       System.out.println();
       System.out.println("Studerende: " + stud2.getNavn());
@@ -23,7 +37,14 @@ public class Skole
       System.out.println();
       System.out.println("Studerende: " + stud3.getNavn());
       stud3.beregnBMI();
-      System.out.println();
+      System.out.println();*/
+      for (int i=0; i<stud.length; i++)
+      {
+         System.out.println(stud[i]);
+         stud[i].beregnBMI();
+         //hvis beregnBMI i Udregner
+         //Udregner.beregnBMI(stud[i]);
+      }
       
       
       

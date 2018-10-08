@@ -60,10 +60,6 @@ public class Studerende
    }
    
    //metoder
-   public boolean equals(Studerende stud)
-   {
-      return (this.getVaegt()==stud.getVaegt());
-   }
    
    public void maalStuderende(double hoejde, double vaegt)
    {
@@ -81,7 +77,7 @@ public class Studerende
       return s;
    }
    
-   public boolean equal(Studerende st)
+   public boolean equals(Studerende st)
    {
       if (this.getNavn().equals(st.getNavn())
       && this.getKlasse().equals(st.getKlasse())
