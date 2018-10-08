@@ -31,11 +31,11 @@ public class Menu
             System.out.println("Tak for at du kørte prgrammet. Farvel!");
             koerProgram = false; //fortæller løkken at vi skal stoppe
          }
-         else
+         /*else
          {
             System.out.println("Programmet burde ikke komme her til.");
             koerProgram = false;
-         }
+         }*/
       }
       
    }
