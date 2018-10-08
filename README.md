@@ -63,4 +63,4 @@ Brug Scanner til at input af oplysninger om studerende. Kan være en god ide at 
 
 Reges p. 548-549 ex. 1 - 3. Ex. 4 er en god udfordring (hint: check på to forskellige indeks i arrayet).
 
-Lav en menu til jeres program, der kalder jeres underprogrammer/handlinger, som skal kunne foretages
+Lav en menu til jeres Little Inn program, der kalder jeres underprogrammer/handlinger, som skal kunne foretages
