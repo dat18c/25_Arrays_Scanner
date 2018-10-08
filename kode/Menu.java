@@ -28,7 +28,7 @@ public class Menu
          else if (valg == 0)
          {
             //der er valgt 0
-            System.out.println("Tak for at du kørte prgrammet. Farvel!");
+            System.out.println("Tak for at du kørte programmet. Farvel!");
             koerProgram = false; //fortæller løkken at vi skal stoppe
          }
          /*else
